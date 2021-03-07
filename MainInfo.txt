@@ -1,0 +1,42 @@
+1 Normal1
+https://github.com/green-fox-academy/jade-syllabus/tree/main/CA/NormalFoundationExam/src/com/jadefexam
+>https://github.com/Alex3000np/gymnocercusJade-foundation-normal-exam
+>video
+>https://www.youtube.com/watch?v=8ngmJs81w84&list=PL33QRGR_RKtJuZae3mlB8ElKvtzg1qP1z&index=12&ab_channel=GreenFoxAcademy
+https://github.com/green-fox-academy/Alex3000np/tree/master/week-07/day-2/Retake%20exam
+
+2 Trial1
+https://github.com/green-fox-academy/barabashh-todo-app
+video
+>https://www.youtube.com/watch?v=Xh5qbAhmnrI&list=PL33QRGR_RKtJuZae3mlB8ElKvtzg1qP1z&index=11&t=728s&ab_channel=GreenFoxAcademy
+code
+https://github.com/green-fox-academy/jade-syllabus/tree/main/CA/TrialExam/src
+https://github.com/green-fox-academy/Alex3000np/tree/master/week-07/day-2/Retake%20exam
+
+3 Trial2
+https://github.com/green-fox-academy/foundation-example-exam
+
+3 RetakeMaggie
+https://github.com/green-fox-academy/Alex3000np/tree/master/week-07/day-2/Retake%20exam
+https://github.com/green-fox-academy/Alex3000np/tree/master/week-07/day-2/Retake%20exam
+
+4 RetakeLukas
+https://github.com/green-fox-academy/jade-syllabus/tree/main/CA/RetakeFoundationExam
+
+5 More:
+https://github.com/green-fox-academy/Alex3000np/tree/master/week-09/day-3/src
+
+
+Total:
+
+1 algoritmic exercise 
+using double for loop, string manipulation,
+
+2 object related (pirates exercise)
+classes, apply inharitance, abstract
+
+3 comand line interface 
+directories
+copy 
+
+4 file reading write functon 
