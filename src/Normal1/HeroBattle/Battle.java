@@ -26,8 +26,8 @@ public class Battle {
     public void startBattle() {
         ArrayList<Hero> attackers;
         attackers = avengersAssemble();
-        for (Hero heroA : attackers) {
-            for (Hero heroH : heroes) {
+        for (Hero heroA : attackers) {              //iterates through all MARVEL heroes
+            for (Hero heroH : heroes) {             //iterates through ALL heroes
                 heroA.punch(heroH);
                 heroH.punch(heroA);
             }

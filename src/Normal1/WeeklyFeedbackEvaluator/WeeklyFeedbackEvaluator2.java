@@ -20,10 +20,12 @@ public class WeeklyFeedbackEvaluator2 {
         ArrayList<String[]> arrayList = new ArrayList<>();       //arrayList with string[] arrays
         HashMap<String, Double> resultsMap = new HashMap<>();
 
+        String[] rowXXX = rows.get(0).split(" ");           //test, just showing that code below can be simplified
+        System.out.println(rowXXX[2]);                            //test, just showing that code below can be simplified
+
         for (String stringX : rows) {
             arrayList.add(stringX.split(" "));              //each row (eg 1 3 5 3) is splitted with space, and added to arrayList
         }
-
 
         String[] row1 = arrayList.get(0);                          //adds row to String array
         String[] row2 = arrayList.get(1);
