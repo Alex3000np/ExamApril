@@ -1,0 +1,33 @@
+Command line exercise
+Take a look at this directory structure:
+restaurant
+ |--storage
+ |   |--.git
+ |   |--drygoods.csv
+ |   |--vegnfruit.csv
+ |   |--chilledprods.csv
+ |   └--acount
+ |       |--2019-sum.csv
+ |       └--2020-sum.csv
+ └--delivery
+     |--drivers
+     |   └--john-working-hours.csv
+     |--jessica-working-hours.csv
+     └--account
+         └--2019-sum.csv
+Your task is to write commands in the correct order from the directory given below.
+
+Do it with less commands without chaining them together.
+
+Assume that the following file is currently in the staging area:
+
+storage/acount/2020-sum.csv
+storage/acount/2019-sum.csv
+Your current directory is restaurant/
+
+Remove every file from the staging area
+Rename storage/acount to storage/account
+Commit the changes
+Change the delivery directory into a Git repository
+Move delivery/jessica-working-hours.csv file to delivery/drivers directory
+Delete the last 2 lines from delivery/drivers/john-working-hours.csv

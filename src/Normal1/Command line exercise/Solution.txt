@@ -1,0 +1,24 @@
+//Remove every file from the staging area
+//changing folder to "storage" > as "restaurant" is not a git repo
+cd storage
+git reset
+
+//2 Rename storage/acount to storage/account (we are in "storage" now)
+mv acount account
+
+//3 Commit the changes
+git add .
+git commit -m "rename done"
+
+//4 Change the delivery directory into a Git repository
+git init C:\users\erina\desktop\restaurant\delivery
+
+//5 Move delivery/jessica-working-hours.csv file to delivery/drivers directory
+mv C:\users\erina\desktop\restaurant\delivery\jessica-working-hours.csv C:\users\erina\desktop\restaurant\delivery\drivers\jessica-working-hours.csv
+
+//6 Delete the last 2 lines from delivery/drivers/john-working-hours.csv
+cd..                                            //up
+cd delivery
+cd drivers
+head -n -2 john-working-hours.csv > temp.csv    //delete lines and save to new temp file
+mv temp.csv john-working-hours.csv              //rename temp to original  (temp will be removed)
