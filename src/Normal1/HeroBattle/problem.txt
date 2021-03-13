@@ -1,0 +1,65 @@
+#### Hero
+- It has a name.
+- It has a motivation: a number represents how much
+  the hero wants to save the world
+- It sets the motivation and name when creating an instance of Hero class.
+- It has a `getMotivationLevel()` method which returns a number between 0 and 2
+  - 0 if the motivation is equal or below 25
+  - 1 if the motivation is between 25 and 40
+  - 2 if motivation is equal or above 40
+- It has a `punch()` method which takes another Hero as parameter
+  - the hero - who called the method - attacks only if his/her motivation level is at least 1
+  - damage is calculated by `attacker hero's motivation / 1.5` (Always round up the decimal numbers)
+  - damage is done by calling the other hero's `bePunched()` method
+- It should have a `bePunched()` method which takes a `damage` as a parameter
+  - `bePunched()`: the hero suffers damage, his/her motivation decreases by
+  `damage / (own motivation / 2)` (Always round up the decimal numbers)
+  - Pay attention that the motivation can't go below 0.
+- An example for the punching:
+```
+Captain America with 28 motivation punches Batman who has 20 motivation.
+The damage will be 28/1.5=19 (after round up). Batman will suffer 19/(20/2)=2 damage (after round up).
+After the fight, the motivations will be the following:
+ - Captain America: 28
+ - Batman: 18
+Note: Always round up the decimal numbers.
+```
+- `toString()`: returns a string status report about the hero
+  - if the hero's motivation level is 0: {name} is not motivated anymore.
+  - if the hero's motivation level is 1: {name} is motivated.
+  - if the hero's motivation level is 2: {name} is well motivated.
+##### DC Hero
+**`DCHero` is a `Hero`**
+- It has a default motivation 45 if the name is provided only. You should still be able
+to create a DCHero with both name and motivation.
+- A DC Hero is not able to punch another DC Hero.
+##### Marvel Hero
+**`MarvelHero` is a `Hero`**
+- It has a default motivation 40 if the name is provided only. You should still be able
+to create a MarvelHero with both name and motivation.
+- A Marvel Hero is not able to punch another Marvel Hero.
+**LET'S FIGHT BETWEEN THE SUPERHEROES**
+##### Battle
+- It should have a list of `Hero`s.
+- We should be able to create a battle by receiving a list of `Hero`s.
+- It has an `avengersAssemble()` method which returns every `MarvelHero`
+  with the highest motivation level (*level 2*).
+- It has a `startBattle()` method which
+  - first calls the `avengersAssemble()` method
+  - then all assembled `MarvelHero` attacks every `DCHero`
+    - before punching the next opponent, the opponent
+      should punch back the attacker. Example:
+    ```
+      Attacker Team: Iron Man, Thor, Hulk
+      Attacked Team: Wonder Woman, Flash
+      First Iron Man punches Wonder Woman,
+      but before moving on to Flash,
+      Wonder Woman punches back Iron Man.
+      Then Iron Man punches Flash,
+      and Flash punches back Iron Man.
+      The same goes for the rest of the attacker team.
+    ```
+  - the winner team is where the accumulated motivation of the heroes is bigger.
+  You also add motivation from those not included in the fight (motivation level is below 1).
+  - lastly call the `toString()` method on the winner team's heros.
+  - if there is no winner team, then call the `toString()` on Marvel heros.

@@ -1,7 +1,8 @@
 1 Normal1
 https://github.com/green-fox-academy/jade-syllabus/tree/main/CA/NormalFoundationExam/src/com/jadefexam
->https://github.com/Alex3000np/gymnocercusJade-foundation-normal-exam
->video
+https://github.com/Alex3000np/gymnocercusJade-foundation-normal-exam
+https://github.com/green-fox-academy/gymnocercusJade-foundation-normal-exam/blob/master/README.md
+video
 >https://www.youtube.com/watch?v=8ngmJs81w84&list=PL33QRGR_RKtJuZae3mlB8ElKvtzg1qP1z&index=12&ab_channel=GreenFoxAcademy
 https://github.com/green-fox-academy/Alex3000np/tree/master/week-07/day-2/Retake%20exam
 
