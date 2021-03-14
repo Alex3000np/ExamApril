@@ -40,4 +40,4 @@ classes, apply inharitance, abstract
 directories
 copy 
 
-4 file reading write functon 
+4 file reading write funciton
