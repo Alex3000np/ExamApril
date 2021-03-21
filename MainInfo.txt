@@ -9,7 +9,7 @@ https://github.com/green-fox-academy/Alex3000np/tree/master/week-07/day-2/Retake
 2 Trial1
 https://github.com/green-fox-academy/barabashh-todo-app
 video
->https://www.youtube.com/watch?v=Xh5qbAhmnrI&list=PL33QRGR_RKtJuZae3mlB8ElKvtzg1qP1z&index=11&t=728s&ab_channel=GreenFoxAcademy
+https://www.youtube.com/watch?v=Xh5qbAhmnrI&list=PL33QRGR_RKtJuZae3mlB8ElKvtzg1qP1z&index=11&t=728s&ab_channel=GreenFoxAcademy
 code
 https://github.com/green-fox-academy/jade-syllabus/tree/main/CA/TrialExam/src
 https://github.com/green-fox-academy/Alex3000np/tree/master/week-07/day-2/Retake%20exam

@@ -88,6 +88,7 @@ lastDayOnTheShip() which calls the pirates' party() method.
 prepareForBattle() which calls
 the pirates' work() method 5 times
 then the ship's lastDayOnTheShip() method.
+
 Command line exercise
 Take a look at this directory structure:
 projects

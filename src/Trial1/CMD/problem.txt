@@ -1,0 +1,31 @@
+Command line exercise
+Take a look at this directory structure:
+
+projects
+ |--program
+ |   |--.git
+ |   |--assets
+ |   |   |--data.md
+ |   |   |--picture_1.png
+ |   |   └--picture_2.jpg
+ |   └--data.txt
+ └--exam
+     |--data.txt
+     └--images
+         └--picture_3.jpg
+
+Your task is to write commands in the correct order from the directory given below.
+Do it with less commands without chaining them together.
+You can try your commands in the given cli-exercise directory
+
+The staging area is empty.
+Your current directory is projects/
+Delete both data.txt
+Move any type of image files from program/assets/ to exam/images/
+Commit the changes with the following message "delete txt files and move image files"
+
+Solution:
+rm program/data.txt exam/data.txt
+mv program/assets/picture* exam/images/
+git add .
+git commit -m "delete txt files and move image files"
