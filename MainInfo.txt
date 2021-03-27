@@ -19,7 +19,6 @@ https://github.com/green-fox-academy/foundation-example-exam
 
 3 RetakeMaggie
 https://github.com/green-fox-academy/Alex3000np/tree/master/week-07/day-2/Retake%20exam
-https://github.com/green-fox-academy/Alex3000np/tree/master/week-07/day-2/Retake%20exam
 
 4 RetakeLukas
 https://github.com/green-fox-academy/jade-syllabus/tree/main/CA/RetakeFoundationExam

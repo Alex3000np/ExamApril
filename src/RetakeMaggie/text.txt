@@ -1,0 +1,98 @@
+OOP
+
+Santa Factory
+You are going to create a Santa's Toy Factory and help Santa bring the remaining toys to the poor children.
+
+Toy
+It has cost, color and owner.
+When a toy is produced the owner should be null.
+Note: the owner will be assigned later by Santa
+Doll
+It costs 25 and each of them could have different color. The color must be set at creation.
+DottedBall
+It costs 10, and each of them could have different color and size. Both of them must be set at creation.
+JumpingRope
+It costs 15, and each of them could have different color and size. Both of them must be set at creation.
+Toy Factory
+It has a balance: 200 by default.
+
+It has a produce(color, size) method where you can produce a Toy.
+
+The Toy can be of any type which has size (choose randomly).
+It shall return a toy if there is sufficient money for it.
+Otherwise return null.
+Update the balance accordingly.
+It has a produce(color) method where you can produce a Doll.
+
+It shall return a Doll only if there is sufficient money for it.
+Otherwise return null.
+Update the balance accordingly.
+Santa
+It has a bag as a list of toys.
+
+It has a children list with names. This list represents all children in the word.
+
+It has an addToyToBag(color, size) method which calls any of the the Santa factory's produce method randomly.
+
+When the one parameter produce() version is called, ignore the size parameter.
+It has a bringToChildren() method which
+
+Takes a list with the names of children e.g.: Lacika, Sanyika. This list represents the children who gets presents when the method is called (this is a sub list of the children list). Imagine that Santa can transfer a limited amount of toys in one round.
+
+Santa brings the toys to the children until the bag is not empty or there are no more children left.
+***There is a typo in the OOP exercise. It should say: Santa brings the toys to the children until the bag *is empty* or there are no more children left.
+
+When a toy is being delivered, it gets its owner (a random children name from the parameter list).
+
+The owner should be removed from both of the children lists and the toy should be removed from the bag too.
+
+*****************************
+
+IO
+
+File IO: Whitespace Remover
+Write a method that can read and parse a file. It has one input parameter: the name of the file. The method shall remove each duplicated space character so that there is only one remaining space between the words, just like in properly written texts. It writes the clean text to an output.txt.
+
+The method should throw a specific Exception with the message ("File does not exist on the given path") if the input file name does not exist.
+
+Output:
+I'm not saying that any of the
+Linq answers that people have provided here are bad,
+but I guess I feel like there...
+
+****************************
+Algorithm exercise: Matrix transpose
+Create a function that takes a matrix as a parameter and returns the transpose of that matrix. The original matrix should remain the same. Keep in mind that the matrices might not be square-shaped. It could be 4x3, 6x1, etc... You can get some points if it works for square matrices but it needs to work for non-square matrices for full points.
+
+Write at least 2 different unit test cases.
+
+Example 1
+Input
+
+[
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9]
+]
+Output
+
+[
+  [1, 4, 7],
+  [2, 5, 8],
+  [3, 6, 9]
+]
+Example 2
+Input
+
+[
+  [5, 9, 3, 7],
+  [3, 2, 1, 8]
+]
+Output
+
+[
+  [5, 3],
+  [9, 2],
+  [3, 1],
+  [7, 8]
+]

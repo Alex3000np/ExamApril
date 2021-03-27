@@ -1,0 +1,48 @@
+OOP
+
+Santa Factory
+You are going to create a Santa's Toy Factory and help Santa bring the remaining toys to the poor children.
+
+Toy
+It has cost, color and owner.
+When a toy is produced the owner should be null.
+Note: the owner will be assigned later by Santa
+
+Doll
+It costs 25 and each of them could have different color. The color must be set at creation.
+
+DottedBall
+It costs 10, and each of them could have different color and size. Both of them must be set at creation.
+
+JumpingRope
+It costs 15, and each of them could have different color and size. Both of them must be set at creation.
+
+Toy Factory
+It has a balance: 200 by default.
+
+It has a produce(color, size) method where you can produce a Toy.
+The Toy can be of any type which has size (choose randomly).
+It shall return a toy if there is sufficient money for it.
+Otherwise return null.
+Update the balance accordingly.
+
+It has a produce(color) method where you can produce a Doll.
+It shall return a Doll only if there is sufficient money for it.
+Otherwise return null.
+Update the balance accordingly.
+
+Santa
+It has a bag as a list of toys.
+It has a children list with names. This list represents all children in the word.
+It has an addToyToBag(color, size) method which calls any of the the Santa factory's produce method randomly.
+When the one parameter produce() version is called, ignore the size parameter.
+
+It has a bringToChildren() method which
+Takes a list with the names of children e.g.: Lacika, Sanyika. This list represents the children
+who gets presents when the method is called (this is a sub list of the children list). Imagine that
+Santa can transfer a limited amount of toys in one round.
+Santa brings the toys to the children until the bag is not empty or there are no more children left.
+***There is a typo in the OOP exercise. It should say: Santa brings the toys to the children until the
+bag *is empty* or there are no more children left.
+When a toy is being delivered, it gets its owner (a random children name from the parameter list).
+The owner should be removed from both of the children lists and the toy should be removed from the bag too.

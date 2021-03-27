@@ -1,0 +1,31 @@
+Most productive year
+We have a very simple database consisting of only csv files (comma separated values).
+Write a method called mostProductiveYear() which can read and parse a file containing
+information about movies. This method takes one argument, which is the name of the film
+studio and returns the most productive year for the film studio. The most productive year
+is a year in which studio produced the highest number of movies.
+
+If we do not have any data about the studio, the method returns an error message
+"Cannot find studio --studio name--, please try again later."
+
+There's two example file, take a look at it in raw format
+(either download it or click on raw here on github).
+It is a csv file (comma separated values):
+
+Marvel https://github.com/Alex3000np/gymnocercusJade-foundation-retake-exam/blob/master/marvel.csv
+Paramount https://github.com/Alex3000np/gymnocercusJade-foundation-retake-exam/blob/master/paramount.csv
+
+Example 1
+Input
+
+mostProductiveYear(marvel)
+Output
+
+2017
+Example 2
+Input
+
+mostProductiveYear(ghibli)
+Output
+
+Cannot find studio ghibli, please try again later.

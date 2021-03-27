@@ -9,12 +9,12 @@ public class Animal {
 
     //constructor
 
-    public Animal(String ownerName, boolean isHealthy, int healCost, String name) {
-        this.ownerName = ownerName;
-        this.isHealthy = isHealthy;
-        this.healCost = healCost;
-        this.name = name;
-    }
+//    public Animal(String ownerName, boolean isHealthy, int healCost, String name) {
+//        this.ownerName = ownerName;
+//        this.isHealthy = isHealthy;
+//        this.healCost = healCost;
+//        this.name = name;
+//    }
 
     public Animal(String ownerName, boolean isHealthy, String name) {
         this.ownerName = ownerName;
