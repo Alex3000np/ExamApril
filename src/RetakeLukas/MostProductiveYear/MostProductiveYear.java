@@ -9,16 +9,13 @@ import java.util.List;
 
 public class MostProductiveYear {
     public static void main(String[] args) {
-
         System.out.println(mostProductiveYear("src/RetakeLukas/MostProductiveYear/Marvel"));
-
     }
 
     public static String mostProductiveYear(String studioName) {
-        ArrayList<String> yearsList = new ArrayList<>();       //collect years here
         Path dataX = Paths.get(studioName + ".csv");
         List<String> stringList;                               //reads here
-
+        ArrayList<String> yearsList = new ArrayList<>();       //collect years here
         try {
             stringList = Files.readAllLines(dataX);
         } catch (IOException e) {

@@ -17,12 +17,11 @@ public class MultiplyMatrix {
             }
             System.out.println();
         }
-
     }
 
     public static Integer[][] multiplyMX(Integer[][] mx) {
-        for (int i = 0; i < mx.length; i++) {
-            for (int j = 0; j < mx[i].length; j++) {        //any matrix allowed, incl square one
+        for (int i = 0; i < mx.length; i++) {               //mx.length column length
+            for (int j = 0; j < mx[i].length; j++) {        //any matrix allowed, incl square one mx[i].length line length
                 if ((mx[i][j] % 2 == 0) && i % 2 == 0) {
                     mx[i][j] = mx[i][j] * 2;
                 } else if ((mx[i][j] % 2 != 0) && i % 2 != 0) {
