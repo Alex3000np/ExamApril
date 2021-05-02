@@ -25,5 +25,5 @@ public abstract class Video {               //note abstract class
         return this.title + " by " + this.director + " from " + this.releaseYear + " - borrowed " + this.borCounter + " times.";
     }
 
-    public abstract Video copy() throws Exception; //copy
+    public abstract Video copy() throws Exception; //copy -> note abstract method
 }

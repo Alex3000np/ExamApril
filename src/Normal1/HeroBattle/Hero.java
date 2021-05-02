@@ -27,7 +27,7 @@ public class Hero {
     }
 
     public void bePunched(double damage) {
-        this.motivation -= (int) Math.ceil((damage * 2) / this.motivation);
+        this.motivation -= (int) Math.ceil((damage * 2) / this.motivation); //rounds up  converts to int
         this.motivation = this.motivation < 0 ? 0 : this.motivation;
     }
 

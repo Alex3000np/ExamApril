@@ -14,7 +14,7 @@ public class Guest {
     }
 
     //method
-    public boolean borrow(Video video) {
+    public boolean borrow(Video video) { //The guest is able to borrow exactly one Video at one time.
         if (this.video == null) {
             this.video = video;
             return true;

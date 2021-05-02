@@ -4,7 +4,7 @@ public class SymmMatrix {
     public static void main(String[] args) {
         int[][] matrix = new int[][]{
                 {1, 0, 1},
-                {0, 2, 2},
+                {5, 2, 2},
                 {1, 2, 5}
         };
         System.out.println(isSymmetric(matrix));

@@ -19,7 +19,7 @@ public class MultiplyMatrix {
         }
     }
 
-    public static Integer[][] multiplyMX(Integer[][] mx) {
+    public static Integer[][] multiplyMX(Integer[][] mx) {  //has to be static for test
         for (int i = 0; i < mx.length; i++) {               //mx.length column length
             for (int j = 0; j < mx[i].length; j++) {        //any matrix allowed, incl square one mx[i].length line length
                 if ((mx[i][j] % 2 == 0) && i % 2 == 0) {

@@ -17,6 +17,6 @@ public class TrickyAverage {
         if (minOdd == Integer.MAX_VALUE) {
             minOdd = 0;
         }
-        return (maxEven + minOdd) / 2.0;
+        return (maxEven + minOdd) / 2.0; //double
     }
 }
